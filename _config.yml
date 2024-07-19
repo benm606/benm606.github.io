@@ -26,7 +26,7 @@ urls:
 - text: Résumé
   url: "/resume.pdf"
   display: true
-# - text: Entrepreneurial Ventures
+# - text: Entrepreneurial Initiatives
 #   url: "/projects/"
   display: true
 - text: FAQ
