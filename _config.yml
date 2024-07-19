@@ -1,0 +1,134 @@
+---
+title: Ben Mesnik
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  products:
+    title: Products
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+email: ben [AT] mesnik [DOT] com
+description: Ben Mesnik's webpage, projects, biography, resume, and FAQ
+baseurl: ''
+url: //benm606.github.io
+website: //benm606.github.com
+urls:
+- text: Home
+  url: "/"
+  display: true
+- text: Biography
+  url: "/biography/"
+  display: true
+- text: Résumé
+  url: "/resume.pdf"
+  display: true
+# - text: Entrepreneurial Ventures
+#   url: "/projects/"
+  display: true
+- text: FAQ
+  url: "/faq/"
+  display: true
+- text: Feedback
+  url: "/feedback/"
+  display: true
+author_logo: profile.png
+author: Ben Mesnik
+author_bio: Hi! I'm currently a Machine Learning Engineer at State Farm.
+  I previously founded a startup, where I built an AI coach for gaming and grew it into a platform which helped over 1 million gamers improve <a href="https://www.youtube.com/watch?v=xZxVJfhKmvs">(Demo)</a>.
+  Before that, I built highly-scalable systems as a Software Engineer at Constant Contact
+  
+author_bio2: I enjoy translating bleeding-edge technical innovations into products which solve real-world problems. I have an eclectic career
+  spanning machine learning, artificial intelligence, gaming, fintech, data platforms, marketing automation, mobile, and advertisement
+  -- largely because I love learning new things about business, technology, and computer science!
+author_bio3: I'm always looking to connect with new people, so feel free to reach out!
+author_location: New York, NY
+author_website_url: benm606.github.com
+author_work_experiences:
+- company_name: State Farm
+  company_logo: sf.png
+  dates: 2024-Present
+  designation: Machine Learning Engineer
+  description:
+  - Just getting started!
+  visibility: true
+- company_name: Tip Genius
+  company_logo: tg.png
+  dates: 2022-2024
+  designation: Founder
+  description:
+  - Created an AI coach for gaming. Transformed concept into platform used by over 1 million gamers. 
+  - Pushed the boundaries of what's possible with the latest in AI.
+  visibility: true
+- company_name: Constant Contact
+  company_logo: cc.png
+  dates: 2020-2022
+  designation: Software Engineer
+  description:
+  - Helped build massively scalable systems as a core member of the Data Platform team. 
+  - Completed rotational program where I contributed on Frontend, Backend, DevOps, and Data teams.
+  visibility: true
+- company_name: Lehigh University
+  company_logo: lehigh.png
+  dates: 2019-2020
+  designation: Research Assistant
+  description:
+  - Compiled analysis on how large organizations prepare for societal shifts, with focus on internal innovation labs.
+  visibility: true
+- company_name: Multiple
+  company_logo: ta.png
+  dates: 2015-2019
+  designation: Intern x4
+  description:
+  - Interned at multiple software and technology companies (Intelliquip, ContentMX, TripAdvisor, Yankee Scientific) over the summers between 2015-2019.
+  visibility: true
+author_education_details:
+- college_logo: lehigh.png
+  college_name: Lehigh University
+  college_degree: B.S. in Computer Science
+  description: I majored in Computer Science, and minored in Entrepreneurship and History.
+  visibility: true
+accomplishments:
+- In 2023, the Tip Genius platform was used by over 1 million gamers.
+- In 2021, I was asked to join the Overwolf incubator program and was given $50,000 in grant funding to launch Tip Genius, the first AI coach for gaming.
+- In 2021, I was awarded $100,000 in grant funding to build a smart contract based algorithmic financial protocol for Cardano.
+- In 2020, I won the grand prize (1st out of 100+ pitches) at the Eureka pitch competition for Tip Genius.
+- In 2018, I was awarded the Leonard Pool prize for my entrepreneurial work on Skilllister.com.
+- In 2016, I competed at the high school track and field national championship.
+github_username: benm606
+linkedin_username: ben-mesnik
+facebook_username: 
+twitter_username: 
+disqus_shortname: ___add-later-if-needed___
+formspree_email: sicks0sicks@gmail.com
+new_formspring_endpoint: xgvwowkp
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+google_analytics: UA-156090084-1
+show_author_work_experiences: true
+show_author_education_details: true
+show_author_project_details: true
+show_accomplishments: true
+plugins:
+- jekyll-paginate
+- jekyll-gist
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-algolia
+- jekyll-redirect-from
+paginate_path: "/projects/page:num/"
+paginate: 12
+compress_html:
+  clippings: all
+  comments:
+  - "<!-- "
+  - " -->"
+  endings: all
+  ignore:
+    envs:
+    - development
